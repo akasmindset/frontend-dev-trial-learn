@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta name="viewport" content="width=device-width, initail-scale=1">
+<link rel="stylesheet" type="text/css" href="">
+<head>
+	<title> basiccode</title>
+<meta charset="UTF-8">
+<style> 
+img {
+	width: 100%;
+	 }
+p{color: red;
+	font-family: courier;
+	border: 1px solid black;
+	padding: 10px; 
+	margin: 30px;
+ }
+ P#base{
+ 	text-align: center;
+ 	border:none;
+ 	text-decoration-color: pink;
+ 	font-size: 15px;
+ 	padding: 50px;
+ 	min-height: 70px;
+ }
+p#p03{
+	color: yellow;
+	font-family:verdana;
+	font-size: 25px;
+	background: green;
+	border-color: red;
+}
+p.error{
+	color: green;
+	font-size: 30px;
+	border: 0px;
+	padding: 0px;
+	margin:0px;
+}
+a:link{
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+#header{
+	background-color: blue;
+	color: white;
+	text-align: right;
+	padding: 5px;
+}
+table, th, td{
+	border: 1px solid brown;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 5px;
+}
+th{
+	text-align: left;
+}
+div.lamp{
+	width: 100%;
+	width: 40px;
+
+}
+ul#nav{
+	padding: 0;
+}
+ul#nav li {
+	display: inline;
+}
+ul#nav li a {
+	background-color: #35424a;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0 ;
+}
+ul#nav li a:hover{
+	background-color: orange;
+}
+div.cities{
+	background-color: green;
+	color: white;
+	font-family: arial;
+	margin: 20px;
+	padding:5px;
+}
+div.cities p{
+border: none;
+color: white;
+}
+#footer{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+</style>
+</head>
+<body style="background-color: lightgray"style="font-family: courier">
+
+<div id="header">
+	<ul id="nav">
+	<li><a href="default.html">HTML</a></li>
+	<li><a href="../css/default.html">CSS</a></li>
+	<li><a href="../js/default.html">JavaScript</a></li>
+	<li><a href="../php/default.html">PHP</a></li>
+</ul>
+<div class="lamp">
+	<img src="../downloads/lamp.jpg" alt="note" style="height: 32px;width 32px;">
+</div>
+</div>
+<iframe src="http://www.google.com" style="border: 2px dotted red"></iframe>
+
+<p title='John "ShotGun" Nelson'>
+<br>Or vice versa:
+
+<p title="John 'ShotGun' Nelson">
+<p id="p03" color= "7fff00"> I am different</p>
+<br>
+<button type="button" onclick="alert('Happy Good Friday Akasmindset')">Click Me</button>
+<form action="action_page.php">
+	<input type="text" name="FirstName" placeholder=" First Name"><br>
+	<input type="text" name="LastName" placeholder=" Last Name"><br>
+	<input type="submit" value="Submit">
+	<br>
+	<input type="radio" name="Gender" value="Male">Male<br>
+	<input type="radio" name="Gender" value="Female"checked>Female<br>
+	<input type="radio" name="Gender" value="Other">Others
+	<br>
+     Colpas Department<br>
+	<select name="Department">
+		<option value="computer science">Computer Science</option>
+		<option value="chemistry">Chemistry</option>
+		<option value="physics" selected>Physics</option>
+		<option value="mathematics">Mathematics</option>
+		<option value="statistic">Statistic</option>
+	</select><br>
+	<textarea name="message" rows="10" cols="30">Enter message here.
+	</textarea><br>
+	<input type="submit">
+
+</form>
+<p class="error">Being different is my way of life. </p>
+<p>This is a paragraph</p>
+<p class="error">Of course, the difference is clear. </p>
+<a href= "http://www.google.com" target="_blank"> google.com</a> 
+<br>
+<a href="http://www.tutorialspiont.com" target="_blank"> tutorialspiont.com </a>
+<br>
+<a href="http://www.facebook.com" target="_blank">
+<img src="wamp/www/friendslink/img" alt="facebook" style="width:42px;height:42px; border:0;">
+</a>
+<img src="cert.jpg" alt="Nacoss certificate" style="width: 128px; height: 128px;"><p>
+<img src="../pictures/akas.png" alt=" 001 picture" style="width: 128px; height: 128px;">
+</p>
+<h2 id="tips">Useful tips Section</h2>
+<a href="#TIPS">Visit the useful tips section</a>
+<ul style="list-style-type: square;">
+	<li>item 1</li>
+	<li>item 2</li>
+</ul>
+<p id="demo"></p>
+<script>
+	document.getElementsByTagName('')
+	
+</script>
+
+<ol type="i">
+	<li style="background-color: #ff0000">ordered list 1</li>
+	<li style="background-color: rgb(150,150,150);">ordered list 2</li>
+	<li style="background-color: #ffffff">ordered list continue</li>
+</ol>
+<p> my favorite food is <mark><del>bread&tea</del></mark> Rice &amp Beans </p> 
+<!--this is comment line....over here-->
+<table style="width: 80%" align="center" border="1">
+	<tr>
+		<th>FirstName</th>
+		<th>MiddleName</th>
+		<th>LastName</th>
+		<th colspan="2">Points</th>
+	</tr>
+	<tr>
+		<td>Akas</td>
+		<td>Joachim</td>
+		<td>Joseph</td>
+		<td>100</td>
+		<td>105</td>
+	</tr>
+	<tr>
+		<td>Eve</td>
+		<td>Johnson</td>
+		<td>christopher</td>
+		<td>100</td>
+		<td>102</td>
+
+	</tr>
+</table>
+<br>
+<dl>
+	<dt>coffee</dt>
+	<dd>- black hot drink</dd>
+	<dt>Milk</dt>
+	<dd>- white cold drink</dd>
+</dl>
+<ul>
+	<li>coffee</li>
+	<li>Tea
+<ul>
+	<li>Black tea</li>
+	<li>Green tea</li>	
+ </ul>
+</li>
+</li>Milk</li>
+</ul>
+
+
+<div class="cities">
+<h2>London</h2>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+<div class="cities">
+<h2>Paris</h2>
+<p>Paris is the capital and most populous city of France.</p>
+</div>
+<div class="cities">
+	<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+
+<div id="footer">
+Front End Dev.Try-basic code  Copyright &copy; 2018  Akasmindset.com
+</div>
+
+</body>
+
+</html>
